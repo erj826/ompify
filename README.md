@@ -3,7 +3,7 @@
 
 ----------
 
-#### How to use this extension!
+#### How to use this extensiomp:
 Clone the repo to your device.
 
 Enter `chrome://extensions/` in your browser.
