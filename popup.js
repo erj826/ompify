@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById("ompifyMe").addEventListener('click', ompText, false);
+    document.getElementById("ompMe").addEventListener('click', ompText, false);
     function ompText() {
       chrome.tabs.getSelected(null, function(tab) {
       function ompify() {
@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < d.length; i++) {
           var text = d[i].innerText.split(' ');
           for (var j = 0; j < text.length; j++) {
-            if ((Math.random() >= 0.8) && (text[j].length > 2)) {
+            if ((Math.random() >= 0.7) && (text[j].length > 2)) {
               text[j] = text[j].substring(0, text[j].length - 2).concat('omp');
             }
           } 
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         for (var i = 0; i < d.length; i++) {
           var text = d[i].innerText.split(' ');
           for (var j = 0; j < text.length; j++) {
-            if ((Math.random() >= 0.8) && (text[j].length > 2)) {
+            if ((Math.random() >= 0.7) && (text[j].length > 2)) {
               text[j] = 'huzz'.concat(text[j].substring(2, text[j].length));
             }
           } 

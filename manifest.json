@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Ompify",
-  "description": "Ompify the text in your current tab!",
+  "description": "Ompify your current tab!",
   "version": "1.0",
 
   "browser_action": {

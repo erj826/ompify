@@ -1,0 +1,19 @@
+body {
+	width:220px; 
+	padding: 0; 
+	margin: 0;
+}
+
+#huzzMe {
+	background-color: #84c6d1; 
+	padding: 15px; 
+	display: inline-block; 
+	float: left;
+}
+
+#ompMe {
+	background-color: #7f187f; 
+	padding: 15px; 
+	display: inline-block; 
+	float: left;
+}
