@@ -6,7 +6,7 @@
 #### How to use:
 - Clone the repo to your device usuing ```git clone https://github.com/erj826/ompify.git```
 
-- Go to <a href="chrome://extensions/" target="_blank">chrome://extensions/</a> in your browser.
+- Go to `chrome://extensions/` in your browser.
 
 - Enable developer mode in the top right corner of the window.
 
